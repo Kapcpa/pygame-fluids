@@ -1,6 +1,10 @@
 # A high-performance pure python fluid simulation for 2D games with a visual layer done with pygame
 
-![](/example_video.mp4)
+
+
+https://github.com/user-attachments/assets/554d6857-e8fd-42b1-bc3d-891ac8a68529
+
+
 
 Please see example.py for an example on how to use the provided Water module.
 Please see water.py for an example on how to create different types of fluids with the Fluid class.
