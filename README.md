@@ -1,11 +1,11 @@
-## A high-performance pure python fluid simulation for 2D games with a visual layer done with pygame
+# A high-performance pure python fluid simulation for 2D games with a visual layer done with pygame
 
 Please see example.py for an example on how to use the provided Water module.
 Please see water.py for an example on how to create different types of fluids with the Fluid class.
 
 Important functions and objects:
 
-# water.Water:
+## water.Water:
 
 `water.Water(width: int, height: int, tile: int)` - initializes the Water object, which takes the raw simulation from Fluid object and adds a visual and interaction layers on top of it
 
@@ -21,7 +21,7 @@ Important functions and objects:
 
 `water.Water.clear_sources()` - Clears water sources
 
-# fluid.Fluid:
+## fluid.Fluid:
 
 `fluid.Fluid(width: int, height: int, tile: int)` - Initializes the Fluid object, which is responsible for simulation - generating water columns based on tile structure, calculating inflows and outflows, advancing the simulation.
 
